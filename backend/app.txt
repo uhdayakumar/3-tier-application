@@ -1,0 +1,3 @@
+Backend Application
+Backend is running successfully.
+Backend will communicate with AWS RDS database.
