@@ -12,14 +12,14 @@ pipeline {
         stage('Frontend Build') {
             steps {
                 echo 'Building Frontend Application'
-                sh 'cd frontend && echo "Frontend build completed"'
+                bat 'cd backend && echo "Backend build completed"'
             }
         }
 
         stage('Backend Build') {
             steps {
                 echo 'Building Backend Application'
-                sh 'cd backend && echo "Backend build completed"'
+                bat 'cd frontend && echo "Frontend build completed"'
             }
         }
 
